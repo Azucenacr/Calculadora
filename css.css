@@ -1,0 +1,60 @@
+*{
+   margin: 0;
+    padding:0;
+    background-color: gray;
+}
+
+body{display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Hace que el body ocupe toda la pantalla */
+}
+
+section{
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    display: grid;
+    background-color: rgb(255, 255, 255);}
+
+.fila1{
+    background-color: white;
+    padding: 3px;
+}
+.pantalla{
+    background-color: black;
+    width: 209px;
+    height: 39px;
+    border-radius: 2px;
+    border:none
+}
+
+.fila{
+    background-color: white;
+    padding: 3px;
+
+
+}
+.botongris{
+    background:#eaeaea;
+    color:black;
+    width: 50px; /* Ancho del botón */
+    height: 50px; /* Alto del botón */
+    font-size: 20px; /* Tamaño del texto dentro del botón */
+    border: 1px solid #b4b4b4; /* bordes */
+    border-radius: 2px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: 0.2s; /* Efecto suave al interactuar */
+}
+
+.botonnaranja{
+    background-color: #f78c2a;
+    color: white;
+    width: 50px; /* Ancho del botón */
+    height: 50px; /* Alto del botón */
+    font-size: 20px; /* Tamaño del texto dentro del botón */
+    border: 1px solid #b4b4b4; /* bordes */
+    border-radius: 2px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: 0.2s; /* Efecto suave al interactuar */
+}
